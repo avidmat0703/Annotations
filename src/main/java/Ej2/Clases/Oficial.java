@@ -1,10 +1,10 @@
-package Ej1.Estructura;
+package Ej2.Clases;
 
-public class Oficial extends Operario{
+public final class Oficial extends Operario{
     private String categoria;
 
-    public Oficial(String nombre, String apellidos, String dni, String direccion, String telefono, String clase, String codigoTaller, String categoria) {
-        super (nombre, apellidos, dni, direccion, telefono, clase, codigoTaller);
+    public Oficial(String nombre, String apellidos, String dni, String direccion, String telefono, String codigoTaller, String categoria) {
+        super (nombre, apellidos, dni, direccion, telefono, codigoTaller);
         this.categoria = categoria;
     }
 

@@ -8,6 +8,6 @@ import java.util.List;
 @Tarea(titulo = "Academia", descripcion = "Clases de Inglés", diaSemana = "Jueves", hora = "18:00")
 @Tarea(titulo = "Fútbol", descripcion = "Partido de fútbol con los colegas", diaSemana = "Sábado", hora = "10:30")
 
-public class Agenda {
+public class AgendaSemana {
     List<Ej3.Clases.Tarea> tareas = new ArrayList<>();
 }

@@ -1,10 +1,11 @@
-package Ej1.Estructura;
+package Ej2.Clases;
 
 public class Directivo extends Empleado{
     private String codigoDespacho;
 
-    public Directivo(String nombre, String apellidos, String dni, String direccion, String telefono, String clase, String codigoDespacho) {
-        super (nombre, apellidos, dni, direccion, telefono, clase);
+    public Directivo(String nombre, String apellidos, String dni, String direccion, String telefono, String codigoDespacho) {
+        super (nombre, apellidos, dni, direccion, telefono);
+        this.codigoDespacho = codigoDespacho;
     }
 
     public String getCodigoDespacho() {

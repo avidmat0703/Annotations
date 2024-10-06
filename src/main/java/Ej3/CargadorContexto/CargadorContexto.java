@@ -1,6 +1,6 @@
 package Ej3.CargadorContexto;
 
-import Ej3.Clases.Agenda;
+import Ej3.Clases.AgendaSemana;
 import Ej3.Clases.Tarea;
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.List;
 public class CargadorContexto {
 
     public static String cargaContextoTareas() {
-        Ej3.Anotaciones.Tarea[] tareaAnnotations = Agenda.class.getAnnotationsByType(Ej3.Anotaciones.Tarea.class);
+        Ej3.Anotaciones.Tarea[] tareaAnnotations = AgendaSemana.class.getAnnotationsByType(Ej3.Anotaciones.Tarea.class);
         List<Tarea> tareas = new ArrayList<>();
 
         for (Ej3.Anotaciones.Tarea tareaAnnotation : tareaAnnotations) {

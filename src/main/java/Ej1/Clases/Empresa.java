@@ -1,4 +1,4 @@
-package Ej1.Estructura;
+package Ej1.Clases;
 
 import Ej1.Anotacion.Empleado;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package Ej2.Estructura;
+package Ej1.Clases;
 
 public class Empleado {
     String nombre;
@@ -6,13 +6,15 @@ public class Empleado {
     String dni;
     String direccion;
     String telefono;
+    String clase;
 
-    public Empleado(String nombre, String apellidos, String dni, String direccion, String telefono) {
+    public Empleado(String nombre, String apellidos, String dni, String direccion, String telefono, String clase) {
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.dni = dni;
         this.direccion = direccion;
         this.telefono = telefono;
+        this.clase = clase;
     }
 
     public String getNombre() {
@@ -55,8 +57,16 @@ public class Empleado {
         this.telefono = telefono;
     }
 
+    public String getClase() {
+        return clase;
+    }
+
+    public void setClase(String clase) {
+        this.clase = clase;
+    }
+
     @Override
     public String toString() {
-        return "Empleado{" + "nombre='" + nombre + '\'' + ", apellidos='" + apellidos + '\'' + ", dni='" + dni + '\'' + ", direccion='" + direccion + '\'' + ", telefono='" + telefono + '\'' + '}';
+        return "Empleado{" + "nombre='" + nombre + '\'' + ", apellidos='" + apellidos + '\'' + ", dni='" + dni + '\'' + ", direccion='" + direccion + '\'' + ", telefono='" + telefono + '\'' + ", clase='" + clase + '\'' + '}';
     }
 }

@@ -1,16 +1,16 @@
 package Ej1.CargadorContexto;
 
 import Ej1.Anotacion.Empleado;
-import Ej1.Estructura.*;
+import Ej1.Clases.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class CargadorContexto {
-    public static List<Ej1.Estructura.Empleado> cargaContextoEmpresa(){
+    public static List<Ej1.Clases.Empleado> cargaContextoEmpresa(){
         Empleado[] empleadosAnnotation = Empresa.class.getAnnotationsByType ( Empleado.class );
-        List<Ej1.Estructura.Empleado> empleados = new ArrayList<>();
+        List<Ej1.Clases.Empleado> empleados = new ArrayList<>();
         for (Empleado empleadoAnnotation : empleadosAnnotation) {
             String clase = empleadoAnnotation.clase ();
             switch(clase) {

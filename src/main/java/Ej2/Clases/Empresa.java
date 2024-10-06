@@ -1,4 +1,4 @@
-package Ej2.Estructura;
+package Ej2.Clases;
 
 import Ej1.Anotacion.Empleado;
 import Ej2.Anotacion.Directivo;
