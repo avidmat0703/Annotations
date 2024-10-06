@@ -4,11 +4,11 @@ import Ejer3.Anotaciones.Tarea;
 import java.util.ArrayList;
 import java.util.List;
 
-@Tarea(descripcion = "limpiar", titulo = "tarea de hoy", diaSemana = "jueves", hora = "10:30")
+@Tarea(descripcion = "Clases", titulo = "Asistir a clases", diaSemana = "lunes", hora = "8:15")
 
-@Tarea(descripcion = "deberes", titulo = "tarea de mañana", diaSemana = "viernes", hora = "16:30")
+@Tarea(descripcion = "Academia", titulo = "Clases de Inglés", diaSemana = "Jueves", hora = "18:00")
 
-@Tarea(descripcion = "trabajo", titulo = "tarea del sábado", diaSemana = "sábado", hora = "8:00")
+@Tarea(descripcion = "Fútbol", titulo = "Partido de fútbol con los colegas", diaSemana = "Sábado", hora = "10:30")
 
 public class Agenda {
     List<Ejer3.Clases.Tarea> tareas = new ArrayList<>();
