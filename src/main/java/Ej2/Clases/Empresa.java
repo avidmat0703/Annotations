@@ -1,9 +1,9 @@
 package Ej2.Clases;
 
-import Ej1.Anotacion.Empleado;
-import Ej2.Anotacion.Directivo;
-import Ej2.Anotacion.Oficial;
-import Ej2.Anotacion.Técnico;
+import Ej1.Anotaciones.Empleado;
+import Ej2.Anotaciones.Directivo;
+import Ej2.Anotaciones.Oficial;
+import Ej2.Anotaciones.Técnico;
 import java.util.ArrayList;
 import java.util.List;
 

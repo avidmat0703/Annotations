@@ -1,4 +1,4 @@
-package Ej2.Anotacion;
+package Ej2.Anotaciones;
 
 import java.lang.annotation.*;
 

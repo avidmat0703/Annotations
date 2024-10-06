@@ -1,6 +1,6 @@
 package Ej1.Clases;
 
-import Ej1.Anotacion.Empleado;
+import Ej1.Anotaciones.Empleado;
 import java.util.ArrayList;
 import java.util.List;
 
